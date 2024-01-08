@@ -1,6 +1,16 @@
 <template lang="">
     <header>
         <Nav/>
+        <section class='jumbo'>
+            <div class='my-jumbo-container d-flex'>
+                <div class='big-div-text'>
+
+                </div>
+                <div class='small-div-img'>
+
+                </div>
+            </div>
+        </section>
     </header>
 </template>
 
@@ -17,7 +27,7 @@ export default {
 @use '../styles/general.scss' as *;
 
     header{
-        background-color: $blue-electric;
-        color: $main-color-text;
+        background-color: #0d1267;
+        // color: $main-color-text;
     }
 </style>
