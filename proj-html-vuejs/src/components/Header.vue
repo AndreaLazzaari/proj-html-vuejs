@@ -13,6 +13,11 @@ export default {
 }
 </script>
 
-<style lang="">
-    
+<style lang="scss">
+@use '../styles/general.scss' as *;
+
+    header{
+        background-color: $blue-electric;
+        color: $main-color-text;
+    }
 </style>
