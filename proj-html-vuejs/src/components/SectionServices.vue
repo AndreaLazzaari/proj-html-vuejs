@@ -35,12 +35,19 @@
                 </div>
             </div>
         </div>
+        <ImgBox />
+        <TextBox />
     </div>
 </template>
 
 <script>
+import ImgBox from './ImgBox.vue';
+import TextBox from './TextBox.vue';
 export default {
-    
+    component:{
+        ImgBox,
+        TextBox,
+    }
 }
 </script>
 
