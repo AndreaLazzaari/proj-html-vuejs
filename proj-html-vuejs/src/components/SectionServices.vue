@@ -10,9 +10,6 @@
                     </div>
                 </div>
             </div>
-
-
-
             <div class='col-3'>
                 <div class="card mt-5" style="width: 18rem;">
                     <div class="card-body blue">
@@ -21,9 +18,6 @@
                     </div>
                 </div>
             </div>
-
-
-
             <div class='col-3'>
                 <div class="card mt-5" style="width: 18rem;">
                     <div class="card-body blue">
@@ -32,9 +26,6 @@
                     </div>
                 </div>
             </div>
-
-
-
             <div class='col-3'>
                 <div class="card mt-5" style="width: 18rem;">
                     <div class="card-body blue">
@@ -60,5 +51,9 @@ export default {
 
     .blue{
         color: $blue-electric;
+    }
+    a{
+        text-decoration: none;
+        color: $orange;
     }
 </style>
