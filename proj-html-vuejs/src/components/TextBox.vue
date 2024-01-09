@@ -1,18 +1,35 @@
 <template lang="">
-    <div class='my-text-box text-center'>
-        <div>
-            <img src="../img/icon-1-2x-200x155.png" alt="">
+    <div class='container d-flex'> 
+
+        <div class='my-img-box'>
+            <img :src="imgSrc" alt="">
         </div>
-        <h2>
-            Testooooooooooooo
-        </h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sit po debitis repellendus nobis!</p>
-        <button type="button" class="btn">What is a VA exactly?</button>
+
+        <div class='my-text-box text-center'>
+            <div>
+                <img :src="iconSrc" alt="">
+            </div>
+            <h2>
+                {{ title }}
+            </h2>
+            <p> {{ text }}</p>
+            <button type="button" class="btn">What is a VA exactly?</button>
+        </div>
+
     </div>
+
+
 </template>
 <script>
 export default {
-    
+    props: [
+        'iconSrc',
+        'title',
+        'text',
+        'imgSrc',
+        'direction',
+
+    ]
 }
 </script>
 
@@ -32,6 +49,11 @@ export default {
         width: 30%;
     }}
 
+
+    div.my-img-box{
+        width: 40%;
+        
+    }
 
 
    
