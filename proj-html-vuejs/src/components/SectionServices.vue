@@ -35,6 +35,8 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class='container d-flex'>
         <ImgBox />
         <TextBox />
     </div>
@@ -44,10 +46,30 @@
 import ImgBox from './ImgBox.vue';
 import TextBox from './TextBox.vue';
 export default {
-    component:{
+    components:{
         ImgBox,
         TextBox,
-    }
+    },
+    data() {
+        return {
+            imgList: ['file:///C:/Users/Andrea/OneDrive/Documenti/Esercizi%20Boolean/proj-html-vuejs/proj-html-vuejs/src/img/info-5-2x-400x432.png', 
+            'file:///C:/Users/Andrea/OneDrive/Documenti/Esercizi%20Boolean/proj-html-vuejs/proj-html-vuejs/src/img/info-8-2x-400x407.png'],
+
+            infoBoxList: [
+                {
+                    src: '../img/icon-1-2x-200x155.png',
+                    titolo: 'Find the ultimate virtual assistant for your business',
+                    paragrafo: 'Donec est tristique eu massa pellentesque non sit sit donec. Proin auctor est vehicula'
+                },
+
+                {
+                    src: '../img/icon-2-2x-200x127.png',
+                    titolo: 'Professional who works to help your business',
+                    paragrafo: 'Donec est tristique eu massa pellentesque non sit sit donec. Proin auctor est vehicula'
+                },
+        ]
+        }
+    },
 }
 </script>
 
