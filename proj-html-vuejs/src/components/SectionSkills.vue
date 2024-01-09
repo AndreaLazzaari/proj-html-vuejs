@@ -15,7 +15,9 @@
                 </div>
             </div>
             <div class='row'>
-                <div classe='col-4'></div>
+                <div classe='col-4'>
+                    <div class='my-blue-box'></div>
+                </div>
                 <div classe='col-4'></div>
                 <div classe='col-4'></div>
             </div>
@@ -48,5 +50,9 @@ div .my-button{
         width: 15%;
     }
 
+    div.my-blue-box{
+        width: calc(100% /3);
+        background-color: $dark-blue;
+    }
 
 </style>
