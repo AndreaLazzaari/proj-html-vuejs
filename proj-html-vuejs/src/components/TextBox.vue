@@ -1,5 +1,5 @@
 <template lang="">
-    <div class='container d-flex'> 
+    <div class='container d-flex mt-5'> 
 
         <div class='my-img-box'>
             <img :src="imgSrc" alt="">
@@ -39,14 +39,13 @@ export default {
 
     div.my-text-box{
         width: 60%;
-        // background-color: red;
 
         button{
         background-color: $orange;
         color: $main-color-text;
         font-size: .7rem;
         font-weight: bolder;
-        width: 30%;
+        width: 20%;
     }}
 
 
