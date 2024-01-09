@@ -49,7 +49,17 @@ export default {
 }
 </script>
 <style lang="scss">
-    nav{
-        color: #FFFFFF;
+@use '../styles/general.scss' as *;
+@use '../styles/partials/variables' as *;
+
+    nav a{
+        color: $main-color-text
     }
+    // ul button{
+    //     background-color: $main-color-text;
+    //     color: $blue-electric;
+    //     font-size: .7rem;
+    //     font-weight: bolder;
+    //     width: 30%;
+    // }
 </style>
