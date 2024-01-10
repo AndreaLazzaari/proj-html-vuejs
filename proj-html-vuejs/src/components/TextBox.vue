@@ -54,6 +54,8 @@ export default {
         
     }
 
-
+    .flex-d{
+        flex-direction: row-reverse;
+    }
    
 </style>

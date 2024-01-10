@@ -9,34 +9,34 @@
             <div class="collapse navbar-collapse" id="navbarScroll">
                 <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link text-white" href="#">About</a>
                     </li>
                     <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services
                     </a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                        <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider text-white"></li>
+                        <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
                     </ul>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Journal</a>
+                    <a class="nav-link text-white" href="#">Journal</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" href="#">Contct</a>
+                    <a class="nav-link text-white" href="#">Contct</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav me-5 my-2 my-lg-0 navbar-nav-scroll">
                     <li class="nav-item">
-                    <a class="nav-link" href="#">1.800.123.4567</a>
+                    <a class="nav-link text-white" href="#">1.800.123.4567</a>
                     </li>
-                    <button type="button" class="btn">Get a free consulation</button>
+                    <button type="button" class="btn text-white">Get a free consulation</button>
                 </ul>
             </div>
         </div>

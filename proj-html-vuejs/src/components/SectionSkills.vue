@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class='row mt-5'>
-                <div classe='col-12'>
+                <!-- <div classe='col-12'>
                     <div class='my-blue-box'>
                         1. 
                     </div>
@@ -28,7 +28,7 @@
                     <div class='my-blue-box'>
                         1. 
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
    </section>
