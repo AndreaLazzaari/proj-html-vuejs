@@ -14,12 +14,21 @@
                     <button type="button" class="btn my-button">What is a VA exactly?</button>
                 </div>
             </div>
-            <div class='row'>
-                <div classe='col-4'>
-                    <div class='my-blue-box'></div>
+            <div class='row mt-5'>
+                <div classe='col-12'>
+                    <div class='my-blue-box'>
+                        1. 
+                    </div>
+
+                    <div class='my-blue-box'>
+                        1. 
+                    </div>
+
+
+                    <div class='my-blue-box'>
+                        1. 
+                    </div>
                 </div>
-                <div classe='col-4'></div>
-                <div classe='col-4'></div>
             </div>
         </div>
    </section>
@@ -52,7 +61,9 @@ div .my-button{
 
     div.my-blue-box{
         width: calc(100% /3);
+        // margin-right: .7rem;
         background-color: $dark-blue;
+        height: 100%;
     }
 
 </style>
